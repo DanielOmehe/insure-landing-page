@@ -1,0 +1,21 @@
+:root {
+  --rubik-font-family: "Rubik", serif;
+  --dm-font-family: "DM Serif Display", serif;
+
+  --color-dark-violet: hsl(256, 26%, 20%);
+  --color-grayish-blue: hsl(216, 30%, 68%);
+
+  --color-very-dark-violet: hsl(270, 9%, 17%);
+  --color-dark-grayish-violet: hsl(273, 4%, 51%);
+  --color-very-light-gray: hsl(0, 0%, 98%);
+
+  --font-size: 16px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--dm-font-family);
+}
+
