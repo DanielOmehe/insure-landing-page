@@ -24,8 +24,8 @@
   height: fit-content;
   padding: 1.5rem 10rem;
   position: relative;
-  background-color: var(--color-very-light-gray);
-  box-shadow: 0 0 2rem var(--color-grayish-blue);
+  background-color: white;
+  box-shadow: 0 0 2rem var(--color-dark-grayish-violet);
   z-index: 2;
 }
 
@@ -33,7 +33,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--color-very-light-gray);
 }
 
 .nav-items-right {
@@ -336,4 +335,260 @@
 
 .footer-item a:hover{
   text-decoration: underline;
+}
+
+.menu_btn{
+  display: none;
+}
+
+.intro-pattern-left-mobile{
+  display: none;
+}
+
+.intro-pattern-right-mobile{
+  display: none;
+}
+
+.intro-mobile{
+  display: none;
+}
+
+.more-section-pattern-mobile{
+  display: none;
+}
+
+.insure-footer-pattern-mobile{
+  display: none;
+}
+
+.insure-mobile-menu{
+  display: none;
+}
+
+@media (max-width: 375px){
+  .insure-landing-header {
+    width: 100%;
+    padding: 1.5rem;
+    position: fixed;
+    top: 0;
+  }
+
+  .insure-mobile-menu.active{
+    width: 100%;
+    display: block;
+    position: fixed;
+    background-color: var(--color-very-dark-violet);
+    left: 0;
+    top: 5rem;
+    padding: 4rem 2rem;
+    height: 83vh;
+    overflow: hidden;
+  }
+
+  .mobile-menu-pattern{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .insure-mobile-menu{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .insure-mobile-menu li{
+    list-style: none;
+    margin-bottom: 2.5rem;
+  }
+
+  .insure-mobile-menu li a{
+    text-decoration: none;
+    font-family: var(--rubik-font-family);
+    font-size: 1.2rem;
+    color: var(--color-very-light-gray);
+    text-transform: uppercase;
+  }
+
+  .insure-mobile-menu .view-plans{
+    width: 100%;
+    height: 50px;
+    background: none;
+    color: var(--color-very-light-gray);
+    font-size: var(--font-size);
+    font-family: var(--rubik-font-family);
+    border: 2px solid var(--color-very-light-gray);
+    text-transform: uppercase;
+  }
+
+  .intro-pattern-left-desktop{
+    display: none;
+  }
+  
+  .intro-pattern-right-desktop{
+    display: none;
+  }
+
+  .nav-items-right{
+    display: none;
+  }
+
+  .menu_btn{
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .landing-content-intro{
+    width: 100%;
+    height: fit-content;
+    flex-direction: column-reverse;
+    padding: 0;
+    margin-top: 3.5rem;
+  }
+
+  .intro-desktop{
+    display: none;
+  }
+
+  .intro-mobile{
+    display: block;
+  }
+
+  .intro-section-right{
+    width: 100%;
+    height: fit-content;
+  }
+
+  .intro-section-left{
+    width: 100%;
+    padding: 4rem 1rem;
+    position: relative;
+    text-align: center;
+  }
+
+  .intro-section-left h1{
+    font-size: 2.8rem;
+    line-height: 3rem;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .intro-section-left p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0 .8rem;
+  }
+
+  .intro-section-left::before{
+    display: none;
+  }
+
+  .intro-pattern-left-mobile{
+    display: block;
+    position: absolute;
+    top: -2rem;
+    left: 0;
+  }
+  
+  .intro-pattern-right-mobile{
+    display: block;
+    position: absolute;
+    bottom: -14rem;
+    right: 0;
+  }
+
+  .landing-different-section{
+    text-align: center;
+    padding: 0;
+    margin-top: 9rem;
+  }
+
+  .line{
+    margin: 0 auto;
+  }
+
+  .section-heading{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .different-items{
+    padding: 1rem;
+  }
+
+  .different-item{
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .different-item .item-paragraph{
+    padding: 0;
+    text-align: center;
+  }
+
+  .different-item:nth-child(2) .item-paragraph{
+    padding: 0;
+    text-align: center;
+  }
+
+  .find-out-more-section{
+    width: 90%;
+    position: relative;
+    padding: 5rem 1.5rem;
+    height: fit-content;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .more-section-pattern{
+    display: none;
+  }
+
+  .more-section-pattern-mobile{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .more-section-header{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 0;
+    line-height: 2.8rem;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .insure-page-footer{
+    overflow: hidden;
+  }
+
+  .insure-footer-pattern{
+    display: none;
+  }
+
+  .insure-footer-pattern-mobile{
+    display: block;
+    position: absolute;
+    top: -3rem;
+    left: -6rem;
+  }
+
+  .insure-page-footer{
+    padding: 5rem 1rem;
+  }
+
+  .landing-footer-top{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .landing-footer-bottom{
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
 }
